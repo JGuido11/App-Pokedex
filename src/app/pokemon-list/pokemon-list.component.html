@@ -1,2 +1,5 @@
-<app-pokemon-card *ngFor="let pokemon of pokemonService.pokemon | async" [pokemon]="pokemon"></app-pokemon-card>
-<!--ng for = para cada objeto pokemon receber um array pokemons-->
+<app-pokemon-card
+  *ngFor="let pokemon of pokemonService.pokemons"
+  [pokemon]="pokemon"
+></app-pokemon-card>
+<!-- ngFor = para cada objeto pokemon receber um array pokemons-->
