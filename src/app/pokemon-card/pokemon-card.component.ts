@@ -8,7 +8,8 @@ import { getPokemonImage, getPokemonNumber, Pokemon } from 'src/Model/Pokemon';
 })
 export class PokemonCardComponent {
   @Input()
-  public pokemons: Pokemon;
+
+  public pokemon!: Pokemon;
 
   public getPokemonImage = getPokemonImage;
   
